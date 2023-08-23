@@ -1,2 +1,2 @@
 tsc main.ts
-./main.js
+node main.js
