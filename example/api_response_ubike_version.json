@@ -1,0 +1,1455 @@
+{
+  "routes": [
+    {
+      "legs": [
+        {
+          "steps": [
+            {
+              "distanceMeters": 43,
+              "staticDuration": "33s",
+              "polyline": {
+                "encodedPolyline": "kh{wCgwtdVKlA"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.0485366,
+                  "longitude": 121.5168409
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.048596399999997,
+                  "longitude": 121.51645049999999
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "DEPART",
+                "instructions": "往西走市民大道一段朝承德路一段前進"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "141 英尺"
+                },
+                "staticDuration": {
+                  "text": "1 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 229,
+              "staticDuration": "185s",
+              "polyline": {
+                "encodedPolyline": "wh{wCyttdVd@PpD`@\\Hb@DALVDNC~@L"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.048596399999997,
+                  "longitude": 121.51645049999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.046685,
+                  "longitude": 121.5159559
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "向左轉進入承德路一段"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "0.1 英里"
+                },
+                "staticDuration": {
+                  "text": "3 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 27,
+              "staticDuration": "22s",
+              "polyline": {
+                "encodedPolyline": "w|zwCwqtdVJs@"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.046685,
+                  "longitude": 121.5159559
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.0466221,
+                  "longitude": 121.5162209
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "向左轉進入忠孝西路一段/縱貫公路/台1線/台3線\n目的地在左邊"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "89 英尺"
+                },
+                "staticDuration": {
+                  "text": "1 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 147,
+              "staticDuration": "180s",
+              "polyline": {
+                "encodedPolyline": "c}zwCqstdV|BaG"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.0467397,
+                  "longitude": 121.5162549
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.046106200000004,
+                  "longitude": 121.5175442
+                }
+              },
+              "navigationInstruction": {
+                "instructions": "從M5入口進站"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "482 英尺"
+                },
+                "staticDuration": {
+                  "text": "3 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 4987,
+              "staticDuration": "624s",
+              "polyline": {
+                "encodedPolyline": "eyzwCs{tdVYGfFy\\x@eEz@aGhLyr@R}@jBkVDkGJea@\\ul@?aBj@_aAFsOF}ABqDT@"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.046106200000004,
+                  "longitude": 121.5175442
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.0410465,
+                  "longitude": 121.56615149999998
+                }
+              },
+              "navigationInstruction": {
+                "instructions": "捷運 開往南港展覽館站"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "3.1 英里"
+                },
+                "staticDuration": {
+                  "text": "10 分鐘"
+                }
+              },
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "市政府",
+                    "location": {
+                      "latLng": {
+                        "latitude": 25.0410465,
+                        "longitude": 121.56615149999998
+                      }
+                    }
+                  },
+                  "arrivalTime": "2023-09-07T10:33:23Z",
+                  "departureStop": {
+                    "name": "台北車站",
+                    "location": {
+                      "latLng": {
+                        "latitude": 25.046106200000004,
+                        "longitude": 121.5175442
+                      }
+                    }
+                  },
+                  "departureTime": "2023-09-07T10:23:40Z"
+                },
+                "localizedValues": {
+                  "arrivalTime": {
+                    "time": {},
+                    "timeZone": "Asia/Taipei"
+                  },
+                  "departureTime": {
+                    "time": {},
+                    "timeZone": "Asia/Taipei"
+                  }
+                },
+                "headsign": "南港展覽館站",
+                "transitLine": {
+                  "agencies": [
+                    {
+                      "name": "Taipei Metro",
+                      "uri": "https://www.metro.taipei/"
+                    }
+                  ],
+                  "name": "板南線",
+                  "color": "#0070bc",
+                  "nameShort": "Bannan Line",
+                  "textColor": "#ffffff",
+                  "vehicle": {
+                    "name": {
+                      "text": "捷運"
+                    },
+                    "type": "SUBWAY",
+                    "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                    "localIconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/tw-taipei-mrt.png"
+                  }
+                },
+                "stopCount": 7
+              },
+              "travelMode": "TRANSIT"
+            },
+            {
+              "distanceMeters": 79,
+              "staticDuration": "180s",
+              "polyline": {
+                "encodedPolyline": "qyywCmk~dVeAfC"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.0410465,
+                  "longitude": 121.56615149999998
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.041404,
+                  "longitude": 121.56546799999998
+                }
+              },
+              "navigationInstruction": {
+                "instructions": "從1出口出站"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "259 英尺"
+                },
+                "staticDuration": {
+                  "text": "3 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 27,
+              "staticDuration": "22s",
+              "polyline": {
+                "encodedPolyline": "y{ywCcg~dV`@N"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.0414069,
+                  "longitude": 121.56545989999998
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.041243899999998,
+                  "longitude": 121.5653753
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "DEPART",
+                "instructions": "往西南走忠孝東路五段15巷朝忠孝東路/忠孝東路五段/台5線前進"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "89 英尺"
+                },
+                "staticDuration": {
+                  "text": "1 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 164,
+              "staticDuration": "158s",
+              "polyline": {
+                "encodedPolyline": "wzywCsf~dVGjC@EGdE"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.041243899999998,
+                  "longitude": 121.5653753
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.0413124,
+                  "longitude": 121.5637204
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "經過7-ELEVEN 松捷門市 (位於右側) 後向右轉\n繼續開在忠孝東路/台5線上"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "0.1 英里"
+                },
+                "staticDuration": {
+                  "text": "3 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 150,
+              "staticDuration": "122s",
+              "polyline": {
+                "encodedPolyline": "e{ywCg|}dV{C?oA@W?"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.0413124,
+                  "longitude": 121.5637204
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.0426148,
+                  "longitude": 121.56370880000001
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "向右轉進入忠孝東路四段559巷\n目的地在右邊"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "492 英尺"
+                },
+                "staticDuration": {
+                  "text": "2 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            }
+          ]
+        }
+      ],
+      "distanceMeters": 5853,
+      "duration": "1487s"
+    },
+    {
+      "legs": [
+        {
+          "steps": [
+            {
+              "distanceMeters": 43,
+              "staticDuration": "33s",
+              "polyline": {
+                "encodedPolyline": "kh{wCgwtdVKlA"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.0485366,
+                  "longitude": 121.5168409
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.048596399999997,
+                  "longitude": 121.51645049999999
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "DEPART",
+                "instructions": "往西走市民大道一段朝承德路一段前進"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "141 英尺"
+                },
+                "staticDuration": {
+                  "text": "1 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 229,
+              "staticDuration": "185s",
+              "polyline": {
+                "encodedPolyline": "wh{wCyttdVd@PpD`@\\Hb@DALVDNC~@L"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.048596399999997,
+                  "longitude": 121.51645049999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.046685,
+                  "longitude": 121.5159559
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "向左轉進入承德路一段"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "0.1 英里"
+                },
+                "staticDuration": {
+                  "text": "3 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 27,
+              "staticDuration": "22s",
+              "polyline": {
+                "encodedPolyline": "w|zwCwqtdVJs@"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.046685,
+                  "longitude": 121.5159559
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.0466221,
+                  "longitude": 121.5162209
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "向左轉進入忠孝西路一段/縱貫公路/台1線/台3線\n目的地在左邊"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "89 英尺"
+                },
+                "staticDuration": {
+                  "text": "1 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 147,
+              "staticDuration": "180s",
+              "polyline": {
+                "encodedPolyline": "c}zwCqstdV|BaG"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.0467397,
+                  "longitude": 121.5162549
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.046106200000004,
+                  "longitude": 121.5175442
+                }
+              },
+              "navigationInstruction": {
+                "instructions": "從M5入口進站"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "482 英尺"
+                },
+                "staticDuration": {
+                  "text": "3 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 4987,
+              "staticDuration": "579s",
+              "polyline": {
+                "encodedPolyline": "eyzwCs{tdVYGfFy\\x@eEz@aGhLyr@R}@jBkVDkGJea@\\ul@?aBj@_aAFsOF}ABqDT@"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.046106200000004,
+                  "longitude": 121.5175442
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.0410465,
+                  "longitude": 121.56615149999998
+                }
+              },
+              "navigationInstruction": {
+                "instructions": "捷運 開往南港展覽館站"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "3.1 英里"
+                },
+                "staticDuration": {
+                  "text": "10 分鐘"
+                }
+              },
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "市政府",
+                    "location": {
+                      "latLng": {
+                        "latitude": 25.0410465,
+                        "longitude": 121.56615149999998
+                      }
+                    }
+                  },
+                  "arrivalTime": "2023-09-07T10:36:21Z",
+                  "departureStop": {
+                    "name": "台北車站",
+                    "location": {
+                      "latLng": {
+                        "latitude": 25.046106200000004,
+                        "longitude": 121.5175442
+                      }
+                    }
+                  },
+                  "departureTime": "2023-09-07T10:26:45Z"
+                },
+                "localizedValues": {
+                  "arrivalTime": {
+                    "time": {},
+                    "timeZone": "Asia/Taipei"
+                  },
+                  "departureTime": {
+                    "time": {},
+                    "timeZone": "Asia/Taipei"
+                  }
+                },
+                "headsign": "南港展覽館站",
+                "transitLine": {
+                  "agencies": [
+                    {
+                      "name": "Taipei Metro",
+                      "uri": "https://www.metro.taipei/"
+                    }
+                  ],
+                  "name": "板南線",
+                  "color": "#0070bc",
+                  "nameShort": "Bannan Line",
+                  "textColor": "#ffffff",
+                  "vehicle": {
+                    "name": {
+                      "text": "捷運"
+                    },
+                    "type": "SUBWAY",
+                    "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                    "localIconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/tw-taipei-mrt.png"
+                  }
+                },
+                "stopCount": 7
+              },
+              "travelMode": "TRANSIT"
+            },
+            {
+              "distanceMeters": 79,
+              "staticDuration": "180s",
+              "polyline": {
+                "encodedPolyline": "qyywCmk~dVeAfC"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.0410465,
+                  "longitude": 121.56615149999998
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.041404,
+                  "longitude": 121.56546799999998
+                }
+              },
+              "navigationInstruction": {
+                "instructions": "從1出口出站"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "259 英尺"
+                },
+                "staticDuration": {
+                  "text": "3 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 27,
+              "staticDuration": "22s",
+              "polyline": {
+                "encodedPolyline": "y{ywCcg~dV`@N"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.0414069,
+                  "longitude": 121.56545989999998
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.041243899999998,
+                  "longitude": 121.5653753
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "DEPART",
+                "instructions": "往西南走忠孝東路五段15巷朝忠孝東路/忠孝東路五段/台5線前進"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "89 英尺"
+                },
+                "staticDuration": {
+                  "text": "1 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 164,
+              "staticDuration": "158s",
+              "polyline": {
+                "encodedPolyline": "wzywCsf~dVGjC@EGdE"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.041243899999998,
+                  "longitude": 121.5653753
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.0413124,
+                  "longitude": 121.5637204
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "經過7-ELEVEN 松捷門市 (位於右側) 後向右轉\n繼續開在忠孝東路/台5線上"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "0.1 英里"
+                },
+                "staticDuration": {
+                  "text": "3 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 150,
+              "staticDuration": "122s",
+              "polyline": {
+                "encodedPolyline": "e{ywCg|}dV{C?oA@W?"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.0413124,
+                  "longitude": 121.5637204
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.0426148,
+                  "longitude": 121.56370880000001
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "向右轉進入忠孝東路四段559巷\n目的地在右邊"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "492 英尺"
+                },
+                "staticDuration": {
+                  "text": "2 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            }
+          ]
+        }
+      ],
+      "distanceMeters": 5853,
+      "duration": "1480s"
+    },
+    {
+      "legs": [
+        {
+          "steps": [
+            {
+              "distanceMeters": 43,
+              "staticDuration": "33s",
+              "polyline": {
+                "encodedPolyline": "kh{wCgwtdVKlA"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.0485366,
+                  "longitude": 121.5168409
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.048596399999997,
+                  "longitude": 121.51645049999999
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "DEPART",
+                "instructions": "往西走市民大道一段朝承德路一段前進"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "141 英尺"
+                },
+                "staticDuration": {
+                  "text": "1 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 229,
+              "staticDuration": "185s",
+              "polyline": {
+                "encodedPolyline": "wh{wCyttdVd@PpD`@\\Hb@DALVDNC~@L"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.048596399999997,
+                  "longitude": 121.51645049999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.046685,
+                  "longitude": 121.5159559
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "向左轉進入承德路一段"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "0.1 英里"
+                },
+                "staticDuration": {
+                  "text": "3 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 27,
+              "staticDuration": "22s",
+              "polyline": {
+                "encodedPolyline": "w|zwCwqtdVJs@"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.046685,
+                  "longitude": 121.5159559
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.0466221,
+                  "longitude": 121.5162209
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "向左轉進入忠孝西路一段/縱貫公路/台1線/台3線\n目的地在左邊"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "89 英尺"
+                },
+                "staticDuration": {
+                  "text": "1 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 147,
+              "staticDuration": "180s",
+              "polyline": {
+                "encodedPolyline": "c}zwCqstdV|BaG"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.0467397,
+                  "longitude": 121.5162549
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.046106200000004,
+                  "longitude": 121.5175442
+                }
+              },
+              "navigationInstruction": {
+                "instructions": "從M5入口進站"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "482 英尺"
+                },
+                "staticDuration": {
+                  "text": "3 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 4987,
+              "staticDuration": "544s",
+              "polyline": {
+                "encodedPolyline": "eyzwCs{tdVYGfFy\\x@eEz@aGhLyr@R}@jBkVDkGJea@\\ul@?aBj@_aAFsOF}ABqDT@"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.046106200000004,
+                  "longitude": 121.5175442
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.0410465,
+                  "longitude": 121.56615149999998
+                }
+              },
+              "navigationInstruction": {
+                "instructions": "捷運 開往南港展覽館站"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "3.1 英里"
+                },
+                "staticDuration": {
+                  "text": "9 分鐘"
+                }
+              },
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "市政府",
+                    "location": {
+                      "latLng": {
+                        "latitude": 25.0410465,
+                        "longitude": 121.56615149999998
+                      }
+                    }
+                  },
+                  "arrivalTime": "2023-09-07T10:39:51Z",
+                  "departureStop": {
+                    "name": "台北車站",
+                    "location": {
+                      "latLng": {
+                        "latitude": 25.046106200000004,
+                        "longitude": 121.5175442
+                      }
+                    }
+                  },
+                  "departureTime": "2023-09-07T10:29:50Z"
+                },
+                "localizedValues": {
+                  "arrivalTime": {
+                    "time": {},
+                    "timeZone": "Asia/Taipei"
+                  },
+                  "departureTime": {
+                    "time": {},
+                    "timeZone": "Asia/Taipei"
+                  }
+                },
+                "headsign": "南港展覽館站",
+                "transitLine": {
+                  "agencies": [
+                    {
+                      "name": "Taipei Metro",
+                      "uri": "https://www.metro.taipei/"
+                    }
+                  ],
+                  "name": "板南線",
+                  "color": "#0070bc",
+                  "nameShort": "Bannan Line",
+                  "textColor": "#ffffff",
+                  "vehicle": {
+                    "name": {
+                      "text": "捷運"
+                    },
+                    "type": "SUBWAY",
+                    "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                    "localIconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/tw-taipei-mrt.png"
+                  }
+                },
+                "stopCount": 7
+              },
+              "travelMode": "TRANSIT"
+            },
+            {
+              "distanceMeters": 79,
+              "staticDuration": "180s",
+              "polyline": {
+                "encodedPolyline": "qyywCmk~dVeAfC"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.0410465,
+                  "longitude": 121.56615149999998
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.041404,
+                  "longitude": 121.56546799999998
+                }
+              },
+              "navigationInstruction": {
+                "instructions": "從1出口出站"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "259 英尺"
+                },
+                "staticDuration": {
+                  "text": "3 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 27,
+              "staticDuration": "22s",
+              "polyline": {
+                "encodedPolyline": "y{ywCcg~dV`@N"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.0414069,
+                  "longitude": 121.56545989999998
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.041243899999998,
+                  "longitude": 121.5653753
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "DEPART",
+                "instructions": "往西南走忠孝東路五段15巷朝忠孝東路/忠孝東路五段/台5線前進"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "89 英尺"
+                },
+                "staticDuration": {
+                  "text": "1 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 164,
+              "staticDuration": "158s",
+              "polyline": {
+                "encodedPolyline": "wzywCsf~dVGjC@EGdE"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.041243899999998,
+                  "longitude": 121.5653753
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.0413124,
+                  "longitude": 121.5637204
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "經過7-ELEVEN 松捷門市 (位於右側) 後向右轉\n繼續開在忠孝東路/台5線上"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "0.1 英里"
+                },
+                "staticDuration": {
+                  "text": "3 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 150,
+              "staticDuration": "122s",
+              "polyline": {
+                "encodedPolyline": "e{ywCg|}dV{C?oA@W?"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.0413124,
+                  "longitude": 121.5637204
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.0426148,
+                  "longitude": 121.56370880000001
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "向右轉進入忠孝東路四段559巷\n目的地在右邊"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "492 英尺"
+                },
+                "staticDuration": {
+                  "text": "2 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            }
+          ]
+        }
+      ],
+      "distanceMeters": 5853,
+      "duration": "1505s"
+    },
+    {
+      "legs": [
+        {
+          "steps": [
+            {
+              "distanceMeters": 22,
+              "staticDuration": "9s",
+              "polyline": {
+                "encodedPolyline": "yh{wCiwtdVb@P"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.0486111,
+                  "longitude": 121.51685490000001
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.04843,
+                  "longitude": 121.51675999999999
+                }
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "72 英尺"
+                },
+                "staticDuration": {
+                  "text": "1 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 73,
+              "staticDuration": "60s",
+              "polyline": {
+                "encodedPolyline": "ug{wCwvtdV~Be@"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.04843,
+                  "longitude": 121.51675999999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.0477942,
+                  "longitude": 121.5169537
+                }
+              },
+              "navigationInstruction": {
+                "instructions": "從北三門入口進站"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "240 英尺"
+                },
+                "staticDuration": {
+                  "text": "1 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 6319,
+              "staticDuration": "360s",
+              "polyline": {
+                "encodedPolyline": "uc{wC}wtdVTBbBwXnG{b@FcAD{AF{KXoJBqBTuE`CgOB}Fb@qTCgCSqFqAwUAgBBk@t@yLl@iMZiFLwD@u@IyBu@{HyAcNGkAW_GIu@g@yB_@m@m@w@oAuCo@kAg@cAoD{FQc@cA}Dk@cCw@oEe@}CqAsJW{DI{BCaHH{L@aER_GJcE"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.0477942,
+                  "longitude": 121.5169537
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.0491919,
+                  "longitude": 121.5779139
+                }
+              },
+              "navigationInstruction": {
+                "instructions": "長途列車 開往往南港"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "3.9 英里"
+                },
+                "staticDuration": {
+                  "text": "6 分鐘"
+                }
+              },
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "松山",
+                    "location": {
+                      "latLng": {
+                        "latitude": 25.0491919,
+                        "longitude": 121.5779139
+                      }
+                    }
+                  },
+                  "arrivalTime": "2023-09-07T10:24:00Z",
+                  "departureStop": {
+                    "name": "台北",
+                    "location": {
+                      "latLng": {
+                        "latitude": 25.0477942,
+                        "longitude": 121.5169537
+                      }
+                    }
+                  },
+                  "departureTime": "2023-09-07T10:18:00Z"
+                },
+                "localizedValues": {
+                  "arrivalTime": {
+                    "time": {},
+                    "timeZone": "Asia/Taipei"
+                  },
+                  "departureTime": {
+                    "time": {},
+                    "timeZone": "Asia/Taipei"
+                  }
+                },
+                "headsign": "往南港",
+                "transitLine": {
+                  "agencies": [
+                    {
+                      "name": "台灣鐵路管理局",
+                      "uri": "http://www.railway.gov.tw/"
+                    }
+                  ],
+                  "name": "普悠瑪",
+                  "nameShort": "Puyouma",
+                  "vehicle": {
+                    "name": {
+                      "text": "長途列車"
+                    },
+                    "type": "LONG_DISTANCE_TRAIN",
+                    "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png",
+                    "localIconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/tw-train.png"
+                  }
+                },
+                "stopCount": 2
+              },
+              "travelMode": "TRANSIT"
+            },
+            {
+              "distanceMeters": 46,
+              "staticDuration": "60s",
+              "polyline": {
+                "encodedPolyline": "ml{wC}t`eVE}A"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.0491919,
+                  "longitude": 121.5779139
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.049222,
+                  "longitude": 121.57837599999999
+                }
+              },
+              "navigationInstruction": {
+                "instructions": "從Songshan Station出口出站"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "151 英尺"
+                },
+                "staticDuration": {
+                  "text": "1 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 49,
+              "staticDuration": "37s",
+              "polyline": {
+                "encodedPolyline": "ak{wCsw`eVGvA"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.048967400000002,
+                  "longitude": 121.57834499999998
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.0490116,
+                  "longitude": 121.57790299999999
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "DEPART",
+                "instructions": "往西走市民大道六段朝松山路前進"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "161 英尺"
+                },
+                "staticDuration": {
+                  "text": "1 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 184,
+              "staticDuration": "180s",
+              "polyline": {
+                "encodedPolyline": "ik{wC{t`eVnI@"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.0490116,
+                  "longitude": 121.57790299999999
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.0473279,
+                  "longitude": 121.5778896
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "向左轉進入松山路"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "0.1 英里"
+                },
+                "staticDuration": {
+                  "text": "3 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 1917,
+              "staticDuration": "558s",
+              "polyline": {
+                "encodedPolyline": "{`{wC{t`eV?JuC?AlAQxA]rBu@nDC^Fn@Xt@hH~OfA`CxCfEn@x@f@h@vBlCPXf@fAdEbIRh@Fb@?j@IdBQ\\ET|@^JRf@Z|E`Cn@RjAj@EbFK?"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.047337,
+                  "longitude": 121.57789880000001
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.0413447,
+                  "longitude": 121.56328699999999
+                }
+              },
+              "navigationInstruction": {
+                "instructions": "公車 開往蘆洲總站"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "1.2 英里"
+                },
+                "staticDuration": {
+                  "text": "9 分鐘"
+                }
+              },
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "聯合報",
+                    "location": {
+                      "latLng": {
+                        "latitude": 25.0413447,
+                        "longitude": 121.56328699999999
+                      }
+                    }
+                  },
+                  "arrivalTime": "2023-09-07T10:48:26Z",
+                  "departureStop": {
+                    "name": "松山車站(松山)",
+                    "location": {
+                      "latLng": {
+                        "latitude": 25.047337,
+                        "longitude": 121.57789880000001
+                      }
+                    }
+                  },
+                  "departureTime": "2023-09-07T10:39:08Z"
+                },
+                "localizedValues": {
+                  "arrivalTime": {
+                    "time": {},
+                    "timeZone": "Asia/Taipei"
+                  },
+                  "departureTime": {
+                    "time": {},
+                    "timeZone": "Asia/Taipei"
+                  }
+                },
+                "headsign": "蘆洲總站",
+                "headway": "600s",
+                "transitLine": {
+                  "agencies": [
+                    {
+                      "name": "三重客運",
+                      "uri": "http://www.sanchung-bus.com.tw/"
+                    }
+                  ],
+                  "name": "蘆洲-松山車站",
+                  "nameShort": "忠孝幹線",
+                  "vehicle": {
+                    "name": {
+                      "text": "公車"
+                    },
+                    "type": "BUS",
+                    "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png"
+                  }
+                },
+                "stopCount": 6
+              },
+              "travelMode": "TRANSIT"
+            },
+            {
+              "distanceMeters": 50,
+              "staticDuration": "40s",
+              "polyline": {
+                "encodedPolyline": "g{ywC{x}dV@kB"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.0413219,
+                  "longitude": 121.5631845
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.0413124,
+                  "longitude": 121.5637204
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "DEPART",
+                "instructions": "往東走忠孝東路/忠孝東路四段/台5線朝忠孝東路四段559巷前進"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "164 英尺"
+                },
+                "staticDuration": {
+                  "text": "1 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 150,
+              "staticDuration": "124s",
+              "polyline": {
+                "encodedPolyline": "e{ywCg|}dV{C?oA@W?"
+              },
+              "startLocation": {
+                "latLng": {
+                  "latitude": 25.0413124,
+                  "longitude": 121.5637204
+                }
+              },
+              "endLocation": {
+                "latLng": {
+                  "latitude": 25.0426148,
+                  "longitude": 121.56370880000001
+                }
+              },
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "向左轉進入忠孝東路四段559巷\n目的地在右邊"
+              },
+              "localizedValues": {
+                "distance": {
+                  "text": "492 英尺"
+                },
+                "staticDuration": {
+                  "text": "2 分鐘"
+                }
+              },
+              "travelMode": "WALK"
+            }
+          ]
+        }
+      ],
+      "distanceMeters": 8810,
+      "duration": "2120s"
+    }
+  ]
+}

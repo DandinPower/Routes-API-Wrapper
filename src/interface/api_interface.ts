@@ -32,14 +32,17 @@ export type RequestHeader = {
 };
 
 // Response Type
-export type ResponseBody = {
+export type ResponseBodyUbike = {
   routes: Array<{
     legs: Array<{
       steps: Array<{
         distanceMeters: number;
-        navigationInstruction: {
-          maneuver?: string;
-          instructions: string;
+        staticDuration: string;
+        startLocation: {
+          latLng: LatLng;
+        };
+        endLocation: {
+          latLng: LatLng;
         };
         transitDetails?: {
           stopDetails: {
@@ -56,14 +59,6 @@ export type ResponseBody = {
         };
         travelMode: string;
       }>;
-      stepsOverview: {
-        multiModalSegments: Array<{
-          navigationInstruction?: {
-            instructions: string;
-          };
-          travelMode: string;
-        }>;
-      };
     }>;
     distanceMeters: number;
     duration: string;

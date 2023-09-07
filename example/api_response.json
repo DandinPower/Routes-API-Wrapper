@@ -1,514 +1,514 @@
 {
-    "routes": [
+  "routes": [
+    {
+      "legs": [
         {
-            "legs": [
-                {
-                    "steps": [
-                        {
-                            "distanceMeters": 43,
-                            "navigationInstruction": {
-                                "maneuver": "DEPART",
-                                "instructions": "往西走市民大道一段朝承德路一段前進"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 229,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_LEFT",
-                                "instructions": "向左轉進入承德路一段"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 27,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_LEFT",
-                                "instructions": "向左轉進入忠孝西路一段/縱貫公路/台1線/台3線\n目的地在左邊"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 147,
-                            "navigationInstruction": {
-                                "instructions": "從M5入口進站"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 4987,
-                            "navigationInstruction": {
-                                "instructions": "捷運 開往南港展覽館站"
-                            },
-                            "transitDetails": {
-                                "stopDetails": {
-                                    "arrivalStop": {
-                                        "name": "市政府"
-                                    },
-                                    "departureStop": {
-                                        "name": "台北車站"
-                                    }
-                                },
-                                "transitLine": {
-                                    "name": "板南線",
-                                    "vehicle": {
-                                        "name": {
-                                            "text": "捷運"
-                                        },
-                                        "type": "SUBWAY"
-                                    }
-                                }
-                            },
-                            "travelMode": "TRANSIT"
-                        },
-                        {
-                            "distanceMeters": 79,
-                            "navigationInstruction": {
-                                "instructions": "從1出口出站"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 27,
-                            "navigationInstruction": {
-                                "maneuver": "DEPART",
-                                "instructions": "往西南走忠孝東路五段15巷朝忠孝東路/忠孝東路五段/台5線前進"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 164,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_RIGHT",
-                                "instructions": "經過7-ELEVEN 松捷門市 (位於右側) 後向右轉\n繼續開在忠孝東路/台5線上"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 150,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_RIGHT",
-                                "instructions": "向右轉進入忠孝東路四段559巷\n目的地在右邊"
-                            },
-                            "travelMode": "WALK"
-                        }
-                    ],
-                    "stepsOverview": {
-                        "multiModalSegments": [
-                            {
-                                "navigationInstruction": {
-                                    "instructions": "步行到台北車站"
-                                },
-                                "travelMode": "WALK"
-                            },
-                            {
-                                "navigationInstruction": {
-                                    "instructions": "捷運 開往南港展覽館站"
-                                },
-                                "travelMode": "TRANSIT"
-                            },
-                            {
-                                "travelMode": "WALK"
-                            }
-                        ]
-                    }
+          "steps": [
+            {
+              "distanceMeters": 43,
+              "navigationInstruction": {
+                "maneuver": "DEPART",
+                "instructions": "往西走市民大道一段朝承德路一段前進"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 229,
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "向左轉進入承德路一段"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 27,
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "向左轉進入忠孝西路一段/縱貫公路/台1線/台3線\n目的地在左邊"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 147,
+              "navigationInstruction": {
+                "instructions": "從M5入口進站"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 4987,
+              "navigationInstruction": {
+                "instructions": "捷運 開往南港展覽館站"
+              },
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "市政府"
+                  },
+                  "departureStop": {
+                    "name": "台北車站"
+                  }
+                },
+                "transitLine": {
+                  "name": "板南線",
+                  "vehicle": {
+                    "name": {
+                      "text": "捷運"
+                    },
+                    "type": "SUBWAY"
+                  }
                 }
-            ],
-            "distanceMeters": 5853,
-            "duration": "1466s"
-        },
-        {
-            "legs": [
-                {
-                    "steps": [
-                        {
-                            "distanceMeters": 43,
-                            "navigationInstruction": {
-                                "maneuver": "DEPART",
-                                "instructions": "往西走市民大道一段朝承德路一段前進"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 174,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_LEFT",
-                                "instructions": "向左轉進入承德路一段"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 56,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_RIGHT",
-                                "instructions": "向右轉，朝館前路前進"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 22,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_LEFT",
-                                "instructions": "向左轉，朝館前路前進"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 29,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_RIGHT",
-                                "instructions": "向右轉，朝館前路前進"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 15,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_LEFT",
-                                "instructions": "向左轉，朝館前路前進"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 39,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_LEFT",
-                                "instructions": "向左轉進入館前路"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 204,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_LEFT",
-                                "instructions": "向左轉進入忠孝西路一段/縱貫公路/台1線/台3線\n目的地在右邊"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 4645,
-                            "navigationInstruction": {
-                                "instructions": "公車 開往南港高工(重陽路)"
-                            },
-                            "transitDetails": {
-                                "stopDetails": {
-                                    "arrivalStop": {
-                                        "name": "聯合報"
-                                    },
-                                    "departureStop": {
-                                        "name": "臺北車站(忠孝)"
-                                    }
-                                },
-                                "transitLine": {
-                                    "name": "南港高工-台北車站",
-                                    "vehicle": {
-                                        "name": {
-                                            "text": "公車"
-                                        },
-                                        "type": "BUS"
-                                    }
-                                }
-                            },
-                            "travelMode": "TRANSIT"
-                        },
-                        {
-                            "distanceMeters": 11,
-                            "navigationInstruction": {
-                                "maneuver": "DEPART",
-                                "instructions": "往北朝忠孝東路/忠孝東路四段/台5線前進"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 63,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_RIGHT",
-                                "instructions": "向右轉進入忠孝東路/忠孝東路四段/台5線"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 143,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_LEFT",
-                                "instructions": "向左轉進入忠孝東路四段553巷"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 92,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_RIGHT",
-                                "instructions": "向右轉，朝忠孝東路四段559巷前進"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 14,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_LEFT",
-                                "instructions": "向左轉進入忠孝東路四段559巷\n目的地在右邊"
-                            },
-                            "travelMode": "WALK"
-                        }
-                    ],
-                    "stepsOverview": {
-                        "multiModalSegments": [
-                            {
-                                "navigationInstruction": {
-                                    "instructions": "步行到臺北車站(忠孝)"
-                                },
-                                "travelMode": "WALK"
-                            },
-                            {
-                                "navigationInstruction": {
-                                    "instructions": "公車 開往南港高工(重陽路)"
-                                },
-                                "travelMode": "TRANSIT"
-                            },
-                            {
-                                "travelMode": "WALK"
-                            }
-                        ]
-                    }
-                }
-            ],
-            "distanceMeters": 5550,
-            "duration": "1762s"
-        },
-        {
-            "legs": [
-                {
-                    "steps": [
-                        {
-                            "distanceMeters": 43,
-                            "navigationInstruction": {
-                                "maneuver": "DEPART",
-                                "instructions": "往西走市民大道一段朝承德路一段前進"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 229,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_LEFT",
-                                "instructions": "向左轉進入承德路一段"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 27,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_LEFT",
-                                "instructions": "向左轉進入忠孝西路一段/縱貫公路/台1線/台3線\n目的地在左邊"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 147,
-                            "navigationInstruction": {
-                                "instructions": "從M5入口進站"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 4987,
-                            "navigationInstruction": {
-                                "instructions": "捷運 開往南港展覽館站"
-                            },
-                            "transitDetails": {
-                                "stopDetails": {
-                                    "arrivalStop": {
-                                        "name": "市政府"
-                                    },
-                                    "departureStop": {
-                                        "name": "台北車站"
-                                    }
-                                },
-                                "transitLine": {
-                                    "name": "板南線",
-                                    "vehicle": {
-                                        "name": {
-                                            "text": "捷運"
-                                        },
-                                        "type": "SUBWAY"
-                                    }
-                                }
-                            },
-                            "travelMode": "TRANSIT"
-                        },
-                        {
-                            "distanceMeters": 79,
-                            "navigationInstruction": {
-                                "instructions": "從1出口出站"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 27,
-                            "navigationInstruction": {
-                                "maneuver": "DEPART",
-                                "instructions": "往西南走忠孝東路五段15巷朝忠孝東路/忠孝東路五段/台5線前進"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 164,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_RIGHT",
-                                "instructions": "經過7-ELEVEN 松捷門市 (位於右側) 後向右轉\n繼續開在忠孝東路/台5線上"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 150,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_RIGHT",
-                                "instructions": "向右轉進入忠孝東路四段559巷\n目的地在右邊"
-                            },
-                            "travelMode": "WALK"
-                        }
-                    ],
-                    "stepsOverview": {
-                        "multiModalSegments": [
-                            {
-                                "navigationInstruction": {
-                                    "instructions": "步行到台北車站"
-                                },
-                                "travelMode": "WALK"
-                            },
-                            {
-                                "navigationInstruction": {
-                                    "instructions": "捷運 開往南港展覽館站"
-                                },
-                                "travelMode": "TRANSIT"
-                            },
-                            {
-                                "travelMode": "WALK"
-                            }
-                        ]
-                    }
-                }
-            ],
-            "distanceMeters": 5853,
-            "duration": "1466s"
-        },
-        {
-            "legs": [
-                {
-                    "steps": [
-                        {
-                            "distanceMeters": 43,
-                            "navigationInstruction": {
-                                "maneuver": "DEPART",
-                                "instructions": "往西走市民大道一段朝承德路一段前進"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 229,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_LEFT",
-                                "instructions": "向左轉進入承德路一段"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 27,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_LEFT",
-                                "instructions": "向左轉進入忠孝西路一段/縱貫公路/台1線/台3線\n目的地在左邊"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 147,
-                            "navigationInstruction": {
-                                "instructions": "從M5入口進站"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 4987,
-                            "navigationInstruction": {
-                                "instructions": "捷運 開往南港展覽館站"
-                            },
-                            "transitDetails": {
-                                "stopDetails": {
-                                    "arrivalStop": {
-                                        "name": "市政府"
-                                    },
-                                    "departureStop": {
-                                        "name": "台北車站"
-                                    }
-                                },
-                                "transitLine": {
-                                    "name": "板南線",
-                                    "vehicle": {
-                                        "name": {
-                                            "text": "捷運"
-                                        },
-                                        "type": "SUBWAY"
-                                    }
-                                }
-                            },
-                            "travelMode": "TRANSIT"
-                        },
-                        {
-                            "distanceMeters": 79,
-                            "navigationInstruction": {
-                                "instructions": "從1出口出站"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 27,
-                            "navigationInstruction": {
-                                "maneuver": "DEPART",
-                                "instructions": "往西南走忠孝東路五段15巷朝忠孝東路/忠孝東路五段/台5線前進"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 164,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_RIGHT",
-                                "instructions": "經過7-ELEVEN 松捷門市 (位於右側) 後向右轉\n繼續開在忠孝東路/台5線上"
-                            },
-                            "travelMode": "WALK"
-                        },
-                        {
-                            "distanceMeters": 150,
-                            "navigationInstruction": {
-                                "maneuver": "TURN_RIGHT",
-                                "instructions": "向右轉進入忠孝東路四段559巷\n目的地在右邊"
-                            },
-                            "travelMode": "WALK"
-                        }
-                    ],
-                    "stepsOverview": {
-                        "multiModalSegments": [
-                            {
-                                "navigationInstruction": {
-                                    "instructions": "步行到台北車站"
-                                },
-                                "travelMode": "WALK"
-                            },
-                            {
-                                "navigationInstruction": {
-                                    "instructions": "捷運 開往南港展覽館站"
-                                },
-                                "travelMode": "TRANSIT"
-                            },
-                            {
-                                "travelMode": "WALK"
-                            }
-                        ]
-                    }
-                }
-            ],
-            "distanceMeters": 5853,
-            "duration": "1466s"
+              },
+              "travelMode": "TRANSIT"
+            },
+            {
+              "distanceMeters": 79,
+              "navigationInstruction": {
+                "instructions": "從1出口出站"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 27,
+              "navigationInstruction": {
+                "maneuver": "DEPART",
+                "instructions": "往西南走忠孝東路五段15巷朝忠孝東路/忠孝東路五段/台5線前進"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 164,
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "經過7-ELEVEN 松捷門市 (位於右側) 後向右轉\n繼續開在忠孝東路/台5線上"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 150,
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "向右轉進入忠孝東路四段559巷\n目的地在右邊"
+              },
+              "travelMode": "WALK"
+            }
+          ],
+          "stepsOverview": {
+            "multiModalSegments": [
+              {
+                "navigationInstruction": {
+                  "instructions": "步行到台北車站"
+                },
+                "travelMode": "WALK"
+              },
+              {
+                "navigationInstruction": {
+                  "instructions": "捷運 開往南港展覽館站"
+                },
+                "travelMode": "TRANSIT"
+              },
+              {
+                "travelMode": "WALK"
+              }
+            ]
+          }
         }
-    ]
+      ],
+      "distanceMeters": 5853,
+      "duration": "1466s"
+    },
+    {
+      "legs": [
+        {
+          "steps": [
+            {
+              "distanceMeters": 43,
+              "navigationInstruction": {
+                "maneuver": "DEPART",
+                "instructions": "往西走市民大道一段朝承德路一段前進"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 174,
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "向左轉進入承德路一段"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 56,
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "向右轉，朝館前路前進"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 22,
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "向左轉，朝館前路前進"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 29,
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "向右轉，朝館前路前進"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 15,
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "向左轉，朝館前路前進"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 39,
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "向左轉進入館前路"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 204,
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "向左轉進入忠孝西路一段/縱貫公路/台1線/台3線\n目的地在右邊"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 4645,
+              "navigationInstruction": {
+                "instructions": "公車 開往南港高工(重陽路)"
+              },
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "聯合報"
+                  },
+                  "departureStop": {
+                    "name": "臺北車站(忠孝)"
+                  }
+                },
+                "transitLine": {
+                  "name": "南港高工-台北車站",
+                  "vehicle": {
+                    "name": {
+                      "text": "公車"
+                    },
+                    "type": "BUS"
+                  }
+                }
+              },
+              "travelMode": "TRANSIT"
+            },
+            {
+              "distanceMeters": 11,
+              "navigationInstruction": {
+                "maneuver": "DEPART",
+                "instructions": "往北朝忠孝東路/忠孝東路四段/台5線前進"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 63,
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "向右轉進入忠孝東路/忠孝東路四段/台5線"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 143,
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "向左轉進入忠孝東路四段553巷"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 92,
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "向右轉，朝忠孝東路四段559巷前進"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 14,
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "向左轉進入忠孝東路四段559巷\n目的地在右邊"
+              },
+              "travelMode": "WALK"
+            }
+          ],
+          "stepsOverview": {
+            "multiModalSegments": [
+              {
+                "navigationInstruction": {
+                  "instructions": "步行到臺北車站(忠孝)"
+                },
+                "travelMode": "WALK"
+              },
+              {
+                "navigationInstruction": {
+                  "instructions": "公車 開往南港高工(重陽路)"
+                },
+                "travelMode": "TRANSIT"
+              },
+              {
+                "travelMode": "WALK"
+              }
+            ]
+          }
+        }
+      ],
+      "distanceMeters": 5550,
+      "duration": "1762s"
+    },
+    {
+      "legs": [
+        {
+          "steps": [
+            {
+              "distanceMeters": 43,
+              "navigationInstruction": {
+                "maneuver": "DEPART",
+                "instructions": "往西走市民大道一段朝承德路一段前進"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 229,
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "向左轉進入承德路一段"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 27,
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "向左轉進入忠孝西路一段/縱貫公路/台1線/台3線\n目的地在左邊"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 147,
+              "navigationInstruction": {
+                "instructions": "從M5入口進站"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 4987,
+              "navigationInstruction": {
+                "instructions": "捷運 開往南港展覽館站"
+              },
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "市政府"
+                  },
+                  "departureStop": {
+                    "name": "台北車站"
+                  }
+                },
+                "transitLine": {
+                  "name": "板南線",
+                  "vehicle": {
+                    "name": {
+                      "text": "捷運"
+                    },
+                    "type": "SUBWAY"
+                  }
+                }
+              },
+              "travelMode": "TRANSIT"
+            },
+            {
+              "distanceMeters": 79,
+              "navigationInstruction": {
+                "instructions": "從1出口出站"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 27,
+              "navigationInstruction": {
+                "maneuver": "DEPART",
+                "instructions": "往西南走忠孝東路五段15巷朝忠孝東路/忠孝東路五段/台5線前進"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 164,
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "經過7-ELEVEN 松捷門市 (位於右側) 後向右轉\n繼續開在忠孝東路/台5線上"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 150,
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "向右轉進入忠孝東路四段559巷\n目的地在右邊"
+              },
+              "travelMode": "WALK"
+            }
+          ],
+          "stepsOverview": {
+            "multiModalSegments": [
+              {
+                "navigationInstruction": {
+                  "instructions": "步行到台北車站"
+                },
+                "travelMode": "WALK"
+              },
+              {
+                "navigationInstruction": {
+                  "instructions": "捷運 開往南港展覽館站"
+                },
+                "travelMode": "TRANSIT"
+              },
+              {
+                "travelMode": "WALK"
+              }
+            ]
+          }
+        }
+      ],
+      "distanceMeters": 5853,
+      "duration": "1466s"
+    },
+    {
+      "legs": [
+        {
+          "steps": [
+            {
+              "distanceMeters": 43,
+              "navigationInstruction": {
+                "maneuver": "DEPART",
+                "instructions": "往西走市民大道一段朝承德路一段前進"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 229,
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "向左轉進入承德路一段"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 27,
+              "navigationInstruction": {
+                "maneuver": "TURN_LEFT",
+                "instructions": "向左轉進入忠孝西路一段/縱貫公路/台1線/台3線\n目的地在左邊"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 147,
+              "navigationInstruction": {
+                "instructions": "從M5入口進站"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 4987,
+              "navigationInstruction": {
+                "instructions": "捷運 開往南港展覽館站"
+              },
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "市政府"
+                  },
+                  "departureStop": {
+                    "name": "台北車站"
+                  }
+                },
+                "transitLine": {
+                  "name": "板南線",
+                  "vehicle": {
+                    "name": {
+                      "text": "捷運"
+                    },
+                    "type": "SUBWAY"
+                  }
+                }
+              },
+              "travelMode": "TRANSIT"
+            },
+            {
+              "distanceMeters": 79,
+              "navigationInstruction": {
+                "instructions": "從1出口出站"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 27,
+              "navigationInstruction": {
+                "maneuver": "DEPART",
+                "instructions": "往西南走忠孝東路五段15巷朝忠孝東路/忠孝東路五段/台5線前進"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 164,
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "經過7-ELEVEN 松捷門市 (位於右側) 後向右轉\n繼續開在忠孝東路/台5線上"
+              },
+              "travelMode": "WALK"
+            },
+            {
+              "distanceMeters": 150,
+              "navigationInstruction": {
+                "maneuver": "TURN_RIGHT",
+                "instructions": "向右轉進入忠孝東路四段559巷\n目的地在右邊"
+              },
+              "travelMode": "WALK"
+            }
+          ],
+          "stepsOverview": {
+            "multiModalSegments": [
+              {
+                "navigationInstruction": {
+                  "instructions": "步行到台北車站"
+                },
+                "travelMode": "WALK"
+              },
+              {
+                "navigationInstruction": {
+                  "instructions": "捷運 開往南港展覽館站"
+                },
+                "travelMode": "TRANSIT"
+              },
+              {
+                "travelMode": "WALK"
+              }
+            ]
+          }
+        }
+      ],
+      "distanceMeters": 5853,
+      "duration": "1466s"
+    }
+  ]
 }

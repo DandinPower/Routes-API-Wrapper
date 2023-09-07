@@ -1,44 +1,22 @@
-import { RequestBody, RequestHeader, LatLng, ResponseBody } from '../interface';
+import {
+  RequestBody,
+  RequestHeader,
+  LatLng,
+  ResponseBodyUbike
+} from '../interface';
 import axios from 'axios';
 import 'dotenv/config';
 
 const GOOGLE_MAP_KEY: string = process.env.GOOGLE_MAP_KEY as string;
-const FIELD_MASK: string =
-  'routes.distanceMeters,routes.duration,routes.legs.stepsOverview.multiModalSegments.navigationInstruction,routes.legs.stepsOverview.multiModalSegments.travelMode,routes.legs.steps.distanceMeters,routes.legs.steps.navigationInstruction,routes.legs.steps.travelMode,routes.legs.steps.transitDetails.stopDetails.arrivalStop.name,routes.legs.steps.transitDetails.stopDetails.departureStop.name,routes.legs.steps.transitDetails.transitLine.name,routes.legs.steps.transitDetails.transitLine.vehicle.name,routes.legs.steps.transitDetails.transitLine.vehicle.type';
+const FIELD_MASK_UBIKE: string =
+  'routes.legs.steps,routes.distanceMeters,routes.duration';
 const COMPUTE_ROUTES_URL: string =
   'https://routes.googleapis.com/directions/v2:computeRoutes';
 
-function displayApiResponse(response: ResponseBody): void {
-  response.routes.forEach((route, routeIndex) => {
-    console.log(`Route ${routeIndex + 1}:`);
-
-    route.legs.forEach((leg) => {
-      leg.steps.forEach((step) => {
-        if (step.travelMode === 'WALK') {
-          console.log(
-            `Walk ${step.distanceMeters} meters: ${step.navigationInstruction.instructions}`
-          );
-        } else if (step.travelMode === 'TRANSIT') {
-          console.log(
-            `Take ${step.transitDetails!.transitLine.vehicle.name.text} (${
-              step.transitDetails!.transitLine.name
-            }) from ${step.transitDetails!.stopDetails.departureStop.name} to ${
-              step.transitDetails!.stopDetails.arrivalStop.name
-            }.`
-          );
-        }
-      });
-    });
-    console.log(`Total Distance: ${route.distanceMeters} meters`);
-    console.log(`Duration: ${route.duration}`);
-    console.log('---------------------------------------------');
-  });
-}
-
-export async function GetRoutes(
+export async function GetRoutesUbike(
   originLatLng: LatLng,
   destinationLatLng: LatLng
-): Promise<void> {
+): Promise<ResponseBodyUbike> {
   const body: RequestBody = {
     origin: {
       location: {
@@ -58,15 +36,27 @@ export async function GetRoutes(
   const header: RequestHeader = {
     'X-Goog-Api-Key': GOOGLE_MAP_KEY,
     'Content-Type': 'application/json',
-    'X-Goog-FieldMask': FIELD_MASK
+    'X-Goog-FieldMask': FIELD_MASK_UBIKE
   };
   try {
     const response = await axios.post(COMPUTE_ROUTES_URL, body, {
       headers: header
     });
-    const responseObject = response.data as ResponseBody;
-    displayApiResponse(responseObject);
-  } catch (error) {
+    const responseObject = response.data as ResponseBodyUbike;
+    return responseObject;
+  } catch (error: any) {
     console.error('Error fetching data:', error);
+
+    if (error && error.response) {
+      throw new Error(
+        `API Error: ${error.response.status} - ${error.response.statusText}`
+      );
+    } else if (error && error.request) {
+      throw new Error(
+        'No response received from the API. Please check the network connection.'
+      );
+    } else {
+      throw new Error('There was an error sending the request.');
+    }
   }
 }
